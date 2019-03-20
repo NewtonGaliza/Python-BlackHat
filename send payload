@@ -1,0 +1,6 @@
+>>>from scapy.all import *
+>>>ip = IP(dst='192.168.0.1')
+>>>tcp = TCP(dport=80, flags='S')
+>>>raw = Raw(b'Hello')
+>>>pkt ip/tcp/raw
+>>>sr(pkt)
