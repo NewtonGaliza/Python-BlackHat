@@ -5,5 +5,5 @@
 >>>send(pkt)
 >>>sr(pkt)
 >>>sr1(pkt)
->>>ans.unams = sr(pkt)
+>>>ans.unans = sr(pkt)
 >>>ans.summary()
