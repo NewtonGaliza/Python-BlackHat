@@ -1,0 +1,9 @@
+>>>from scapy.alll import *
+>>>ip = IP(dst='192.168.0.1')
+>>>tcp = TCP(dport=80, flags='S')
+>>>pkt = ip/tcp
+>>>send(pkt)
+>>>sr(pkt)
+>>>sr1(pkt)
+>>>ans.unams = sr(pkt)
+>>>ans.summary()
